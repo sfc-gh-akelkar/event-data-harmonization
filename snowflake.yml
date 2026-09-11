@@ -1,0 +1,13 @@
+definition_version: 2
+entities:
+  event_harmonization:
+    type: streamlit
+    identifier:
+      name: EVENT_HARMONIZATION_DEMO
+      database: PATIENTPOINT_DEMO
+      schema: EVENT_HARMONIZATION
+    query_warehouse: APP_WH
+    main_file: streamlit_app.py
+    artifacts:
+      - streamlit_app.py
+      - pyproject.toml
